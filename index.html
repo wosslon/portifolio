@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portifólio de woslon</title>
+</head>
+<style>
+
+    body{
+        background: url(./img/parede.jpeg);
+        border: 1px solid rgb(0, 0, 0);
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        color: rgb(250, 250, 250);  
+        margin: auto;
+    }
+    .conteudo{
+        background-color: rgba(9, 9, 9, 0.629);
+        border: 1px solid rgba(220, 129, 10, 0.962);
+        text-align: center;
+        display: inline-block;
+        margin:3%
+        
+    }
+    .scs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    p{
+        border: 3px solid rgb(106, 106, 106);
+        border: 1px solid rgba(215, 144, 50, 0.739);
+        font-size: 25px;
+        margin: 2%;
+        border-radius: 7px;
+        text-align: c;
+        padding: 2%;
+    }
+    p:hover{
+        color:rgba(253, 115, 29, 0.998);
+        cursor: pointer;
+    }
+    h1{
+        background-color: rgba(89, 90, 91, 0.699);
+        color: rgba(150, 135, 135, 0.858);
+        border: 1px solid rgba(215, 144, 50, 0.85);
+        border-radius: 7px;
+        padding: 20px;
+        margin: 2%;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    h1:hover{
+        background-color: rgba(124, 123, 121, 0.738);
+        color:rgba(246, 99, 7, 0.998);
+        cursor: pointer;
+    }
+    img{
+        position:relative;
+        text-align:center;
+        height: 115px;
+        width: 110px;
+        border-radius:20%;
+        padding:20px;
+        margin: auto;
+       
+    }
+    .dev{
+        display: grid;
+        grid-template-columns: auto;
+        justify-items: center;
+        padding: 2%;
+        border-radius: 1px solid orangered;
+    }
+    #txt{
+        text-align:center;
+        font-size: larger;
+    }
+    #login:hover{
+        color:rgba(246, 113, 31, 0.991);
+        cursor: pointer;
+    }#login{
+        color: white;
+    }
+
+    
+    #cal{
+        color: white;
+    }
+    #cal:hover{
+        color:rgba(246, 113, 31, 0.991);
+        cursor: pointer;
+    }
+</style>
+<body>
+        <div class="conteudo">
+            <h1>OLÁ, MEU NOME É WOSLON DIAS PINHO</h1>
+            <p class="dev">Front-End Developer <img src="./img/woslon-3.jpg" alt="foto" ></p>
+            <h1>SOBRE MIM</h1>
+            <P id="txt">Atualmente moro em SINOP-MT, 
+            acadêmico em Análise e Desenvolvimento de Sistemas(ADS),
+            um grande entusiasta da técnologia, acabei me identificando
+            com área de desenvolvimento web conhecida como (front-end), Aprendi as principais tecnologias para desenvolvimento web: hml5/css/js/github,onde cada vez mais procuro me especializar na área.</P>
+            <h1>ESTUDOS</h1>
+            <P>cursando - (análise e desenvolvimento de sistemas 4/5)</P>
+            <p>cursando - (java script avançado (udemy))</p>
+            <p>curso - tech/academy - (fullstack developer)</p>
+            <p>curso - (lógica de programação algoritimica)</p>
+            <p>curso - (poo em java)</p>
+            <p>curso - (java script basico)</p>
+            <p>curso - (redes)</p>
+            <h1>PROJETOS</h1>
+            <a href="./projects/index.login.html">
+                <p id="login">TELA DE LOGIN</p>
+            </a>
+            
+            <a href="./projects/index.calculadora.html">
+                <P id="cal">CALCULADORA</P>
+            </a>
+            <h1>REDES SOCIAIS</h1>
+             <p class="scs">
+                
+                <a href="https://github.com/wosslon">
+                    <img src="./img/github.png"alt="github">
+                 </a>
+                 <a href="https://www.instagram.com/">
+                    <img src="./img/instagram.png" alt="instagram">
+                </a>
+                <a href="https://www.linkedin.com/">
+                    <img src="./img/linkedin.png" alt="linkedin">
+                </a>
+             </p>
+            <p>&copy;Woscorporation Todos Direitos Reservados</p>
+        </div>
+</body>
+</html>
